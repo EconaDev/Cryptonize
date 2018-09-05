@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ElectronService } from 'ngx-electron';
+import { AenigmaLocalStorageProvider, Aenigma, AenigmaStorageService } from 'aenigma';
 
 @Component({
   selector: 'app-root',
